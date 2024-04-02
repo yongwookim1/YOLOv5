@@ -122,6 +122,12 @@ python detect.py --weights yolov5s.pt --source 0                               #
                                                'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
 ```
 
+```bash
+python detect.py --weights yolov5s.pt --img 640 --conf 0.25 --source data/images/cat.jpg
+
+python detect.py --weights yolov5s.pt --img 640 --conf 0.25 --source data/images/rang.jpeg
+```
+
 </details>
 
 <details>
